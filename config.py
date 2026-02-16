@@ -22,7 +22,7 @@ WORKERS = 2
 DB_URI = "mongodb"
 DB_NAME = "dishantdb"
 
-FSUBS = [[-1003016571084, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1003016571084, False, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
 DB_CHANNEL = -1003778789033   # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
@@ -33,7 +33,7 @@ DB_CHANNEL = -1003778789033   # just put channel id dont add ""
 # Auto Delete Timer (seconds)
 AUTO_DEL = 
 # Admin IDs
-ADMINS = [6497757690, 6103092779]
+ADMINS = [5904478052]
 # Bot Settings
 DISABLE_BTN = True
 PROTECT = False
